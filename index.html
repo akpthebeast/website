@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+</head>
+<style>
+    body {
+      background-image: url("images/bgwall.jpg");
+      background-repeat: no-repeat;
+      border: 0px;
+    }
+    header{
+        text-align:center;
+        background-color: bisque;
+        border: 0px solid black;
+    }
+    h1{
+        text-align: center;
+        background-color: cornsilk;
+        height:120px;
+        padding: auto;
+        border: 0px solid black;
+    }
+    p{
+        text-align: center;
+        padding: auto;
+        border: 0px solid black;
+    }
+    nav ul li {
+        display:inline; margin:21.5px;
+        padding: auto;
+    }
+    footer{
+        text-align: center;
+        padding: auto;
+        border: 0px solid black;
+    }
+</style>
+<script>
+    function jfun1(){
+        // alert("Welcome to My website!!!")
+        // document.write("<h1>Welcome to my website!!</h1>");
+        // window.open("welcome.html")
+        // window.open("welcome.html", "", "width=200,height=100");
+        // prompt("Please enter your email for Subscription");
+        var country=prompt("Please enter your country name");
+
+        if(country=="India"||country=="india"||country=="hindustan"){
+            alert("you got 80% discount");
+        }
+        else{
+            alert("no discount!!");
+        }
+    }
+</script>
+<body onload="jfun1()">
+    <header>
+        <h3>
+            Dattebayo
+        </h3>
+    </header>
+    <nav style="border: 1px solid black;">
+        <ul>
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact us
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="demo.html">
+                    demo
+                </a>
+            </li>
+            <li>
+                <a href="j.html">
+                    demo2
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <h1>
+       <br> MY PROFILE
+    </h1>
+    <p>
+        <br><br>
+        Name: Ankit Kumar Pandit<br>
+        Degree: B.E.<br>
+        Branch: Computer Science and Engineering<br>
+        Semester: 4th<br>
+        USN: 4PS21CS006<br>
+        <br>
+        <a href="#">
+            <img src="images/insta.jpeg" width = "50">
+        </a><br>
+    </p>
+    <footer>
+        &copy; developed by Ankit Kumar Pandit
+    </footer>
+</body>
+</html>
